@@ -1,0 +1,20 @@
+{
+  "name": "seele-example",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@vollowx/seele": "^0.13.0",
+    "@web/dev-server": "^1.0.0",
+    "@web/dev-server-esbuild": "^2.0.0"
+  },
+  "scripts": {
+    "dev": "web-dev-server"
+  }
+}

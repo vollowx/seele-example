@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>seele Example</title>
+
+    <link href="./main.css" rel="stylesheet" />
+    <script type="module" src="./main.ts"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <md-button size="large" onclick="dialog.show()">
+      Empty Recycle Bin
+    </md-button>
+    <md-dialog id="dialog">
+      Are you sure that you want to permanetly delete these 49 items?
+      <div slot="actions">
+        <md-button variant="text" onclick="dialog.close()">No</md-button>
+        <md-button variant="text" onclick="dialog.close()">Yes</md-button>
+      </div>
+    </md-dialog>
+  </body>
+</html>
