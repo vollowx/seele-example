@@ -12,5 +12,7 @@ To run the dev server:
 bun start
 ```
 
+Also check out another example [timor](https://github.com/vollowx/timor), a clock app.
+
 - [ ] building
 - [ ] server-side rendering
